@@ -13,3 +13,7 @@ def greating():
 @app.route("/sum/<int:a>/<int:b>")
 def sum(a: int, b: int):
     return f"La suma es {str(a + b)}"
+
+@app.route('/multiply/<int:a>/<int:b>")
+def multiply(a: int, b: int):
+    return f"La multiplicación es {str(a * b)}"

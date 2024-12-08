@@ -1,10 +1,11 @@
-from scr.app import sum
+from scr.app import app
 
-def main() -> None:
-    sum(a+b)
+HOST = "localhost"
+PORT = 4000
+DEBUG = True
 
 if __name__ == "__main__":
-    main()
+    main(HOST, PORT, DEBUG)
 
 # is a common Python construct used to execute code only when the script is run directly, not when it is imported as a module.
 

@@ -5,7 +5,7 @@ PORT = 4000
 DEBUG = True
 
 if __name__ == "__main__":
-    main(HOST, PORT, DEBUG)
+    app.run(HOST, PORT, DEBUG)
 
 # is a common Python construct used to execute code only when the script is run directly, not when it is imported as a module.
 
